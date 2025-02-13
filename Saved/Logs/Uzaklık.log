@@ -1661,3 +1661,44 @@ LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
 [2025.02.13-14.52.04:481][982]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.02.13-14.52.04:481][982]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.02.13-14.52.04:481][982]AssetCheck: /Game/NewMap Validating asset
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: ================================================
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Total job queries 177, among them cache hits 14 (7.91%), DDC hits 127 (71.75%), Duplicates 4 (2.26%)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Tracking 159 distinct input hashes that result in 145 distinct outputs (91.19%)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: RAM used: 117,43 KiB of 3,20 GiB budget. Usage: 0.00%
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Shaders Compiled: 32
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Jobs assigned 32, completed 32 (100%)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Average time worker was idle: 119.07 s
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Time job spent in pending queue: average 0.20 s, longest 2.26 s
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Job execution time: average 1.63 s, max 2.68 s
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Job life time (pending + execution): average 1.83 s, max 3.68
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Shader code size: average 4,993 KiB, min 284 B, max 12,355 KiB
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.93 s
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Jobs were issued in 32 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Average processing rate: 2.93 jobs/sec
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Total thread time: 30,72 s
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Total thread preprocess time: 2,935 s
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Percentage time preprocessing: 9.55%
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Effective parallelization: 2.81 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display:                                                FAnisotropyPS (compiled    2 times, average 1.13 sec, max 1.14 sec, min 1.11 sec)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    2 times, average 1.06 sec, max 1.33 sec, min 0.79 sec)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 1.01 sec, max 1.01 sec, min 1.01 sec)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    2 times, average 0.97 sec, max 1.24 sec, min 0.71 sec)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display:            TShadowDepthVSVertexShadowDepth_OnePassPointLight (compiled    2 times, average 0.97 sec, max 1.02 sec, min 0.92 sec)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.01% of total time (compiled    8 times, average 0.92 sec, max 1.23 sec, min 0.63 sec)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.78% of total time (compiled    8 times, average 0.64 sec, max 1.00 sec, min 0.42 sec)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display:                                                FAnisotropyPS - 7.33% of total time (compiled    2 times, average 1.13 sec, max 1.14 sec, min 1.11 sec)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display:                                                  FVelocityPS - 6.88% of total time (compiled    2 times, average 1.06 sec, max 1.33 sec, min 0.79 sec)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 6.35% of total time (compiled    2 times, average 0.97 sec, max 1.24 sec, min 0.71 sec)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: === Material stats ===
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Materials Translated:    134
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Material Translation Only: 0.04 s (44%)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: Material Cache Hits: 22 (16%)
+[2025.02.13-14.53.25:338][329]LogShaderCompilers: Display: ================================================
