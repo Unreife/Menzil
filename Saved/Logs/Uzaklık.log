@@ -1539,3 +1539,125 @@ LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
 [2025.02.13-14.47.25:283][736]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
 [2025.02.13-14.47.25:283][736]LogShaderCompilers: Display: Material Cache Hits: 21 (16%)
 [2025.02.13-14.47.25:283][736]LogShaderCompilers: Display: ================================================
+[2025.02.13-14.48.03:094][985]Cmd: POLY SELECT ADJACENT WALLS
+[2025.02.13-14.48.04:427][ 65]Cmd: POLY SELECT ADJACENT WALLS
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: ================================================
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Total job queries 155, among them cache hits 12 (7.74%), DDC hits 127 (81.94%), Duplicates 4 (2.58%)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Tracking 139 distinct input hashes that result in 132 distinct outputs (94.96%)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: RAM used: 113,47 KiB of 3,20 GiB budget. Usage: 0.00%
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Shaders Compiled: 12
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Jobs assigned 12, completed 12 (100%)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Average time worker was idle: 97.02 s
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.04 s
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Job execution time: average 1.77 s, max 2.68 s
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Job life time (pending + execution): average 1.79 s, max 2.69
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Shader code size: average 6,094 KiB, min 1,957 KiB, max 11,434 KiB
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.01 s
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Jobs were issued in 12 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Average processing rate: 2.40 jobs/sec
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Total thread time: 10,178 s
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Total thread preprocess time: 2,687 s
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Percentage time preprocessing: 26.40%
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Effective parallelization: 2.03 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display:                                                FAnisotropyPS (compiled    2 times, average 1.13 sec, max 1.14 sec, min 1.11 sec)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.87 sec, max 1.08 sec, min 0.63 sec)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    5 times, average 0.56 sec, max 0.66 sec, min 0.42 sec)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display:                                                FAnisotropyVS (compiled    2 times, average 0.39 sec, max 0.39 sec, min 0.38 sec)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 42.78% of total time (compiled    5 times, average 0.87 sec, max 1.08 sec, min 0.63 sec)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.48% of total time (compiled    5 times, average 0.56 sec, max 0.66 sec, min 0.42 sec)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display:                                                FAnisotropyPS - 22.11% of total time (compiled    2 times, average 1.13 sec, max 1.14 sec, min 1.11 sec)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display:                                                FAnisotropyVS - 7.63% of total time (compiled    2 times, average 0.39 sec, max 0.39 sec, min 0.38 sec)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: === Material stats ===
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Materials Translated:    131
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Material Translation Only: 0.03 s (44%)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: Material Cache Hits: 21 (16%)
+[2025.02.13-14.50.25:292][489]LogShaderCompilers: Display: ================================================
+[2025.02.13-14.50.32:762][932]Cmd: DELETE
+[2025.02.13-14.50.32:762][932]Cmd: ACTOR DELETE
+[2025.02.13-14.50.32:768][932]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.13-14.50.32:778][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.02.13-14.50.32:781][932]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2025.02.13-14.51.23:533][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.02.13-14.51.24:855][809]LogSlate: Window 'Save Content' being destroyed
+[2025.02.13-14.51.24:865][809]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.13-14.51.24:927][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2025.02.13-14.51.24:938][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.02.13-14.51.24:948][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.02.13-14.51.25:015][809]LogFileHelpers: InternalPromptForCheckoutAndSave took 150.355 ms
+[2025.02.13-14.51.25:016][809]LogAssetEditorSubsystem: Opening Asset editor for World /Game/NewMap.NewMap
+[2025.02.13-14.51.25:016][809]Cmd: MAP LOAD FILE="../../../../../../Users/Acer/Documents/GitHub/Menzil/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2025.02.13-14.51.25:044][809]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-14.51.25:044][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-14.51.25:044][809]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/NewMap.NewMap
+[2025.02.13-14.51.25:067][809]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.13-14.51.25:077][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.02.13-14.51.25:080][809]LogStreaming: Display: FlushAsyncLoading(875): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.13-14.51.25:082][809]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap'.
+[2025.02.13-14.51.25:082][809]LogChaosDD: Creating Chaos Debug Draw Scene for world NewMap
+[2025.02.13-14.51.25:085][809]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/NewMap.NewMap'.
+[2025.02.13-14.51.25:086][809]LogWorldPartition: ULevel::OnLevelLoaded(NewMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.02.13-14.51.25:086][809]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.13-14.51.25:086][809]LogWorldPartition: UWorldPartition::Initialize : World = /Game/NewMap.NewMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.13-14.51.25:285][809]LogWorldPartition: Display: WorldPartition initialize took 199.022 ms (total: 786.005 ms)
+[2025.02.13-14.51.25:703][809]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.02.13-14.51.25:718][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.02.13-14.51.25:727][809]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.02.13-14.51.25:728][809]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,965ms to complete.
+[2025.02.13-14.51.34:662][314]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2025.02.13-14.51.34:855][326]LogStreaming: Display: FlushAsyncLoading(1019): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.13-14.51.34:868][326]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2025.02.13-14.51.35:050][327]LogChaosDD: Creating Chaos Debug Draw Scene for world World_5
+[2025.02.13-14.51.35:050][327]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_5'.
+[2025.02.13-14.51.38:205][510]LogStreaming: Display: FlushAsyncLoading(1021): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.13-14.51.38:301][512]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FPWeapon/Mesh/SM_Pistol.SM_Pistol
+[2025.02.13-14.51.38:301][512]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FPWeapon/Mesh/SM_Pistol.SM_Pistol
+[2025.02.13-14.51.38:302][512]LogActorFactory: Actor Factory spawned StaticMesh /Game/FPWeapon/Mesh/SM_Pistol.SM_Pistol as actor: StaticMeshActor /Game/NewMap.NewMap:PersistentLevel.StaticMeshActor_0
+[2025.02.13-14.51.39:082][533]LogChaosDD: Creating Chaos Debug Draw Scene for world World_6
+[2025.02.13-14.51.39:082][533]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_6'.
+[2025.02.13-14.51.39:205][535]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.02.13-14.51.39:208][535]LogEditorActor: Deleted 0 Actors (0.025 secs)
+[2025.02.13-14.51.39:215][535]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FPWeapon/Mesh/SM_Pistol.SM_Pistol
+[2025.02.13-14.51.39:215][535]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FPWeapon/Mesh/SM_Pistol.SM_Pistol
+[2025.02.13-14.51.39:218][535]LogActorFactory: Actor Factory spawned StaticMesh /Game/FPWeapon/Mesh/SM_Pistol.SM_Pistol as actor: StaticMeshActor /Game/NewMap.NewMap:PersistentLevel.StaticMeshActor_UAID_74D4DD3E17BA034C02_1942449279
+[2025.02.13-14.51.39:223][535]LogChaosDD: Creating Chaos Debug Draw Scene for world World_7
+[2025.02.13-14.51.39:223][535]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_7'.
+[2025.02.13-14.51.42:277][710]LogStreaming: Display: FlushAsyncLoading(1022): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.13-14.51.42:436][713]LogActorFactory: Actor Factory spawned PhysicsAsset /Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.SK_FPGun_PhysicsAsset as actor: SkeletalMeshActor /Game/NewMap.NewMap:PersistentLevel.SkeletalMeshActor_0
+[2025.02.13-14.51.42:436][713]LogActor: Warning: SetReplicates called on non-initialized actor SkeletalMeshActor_0. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2025.02.13-14.51.42:436][713]LogActorFactory: Actor Factory spawned PhysicsAsset /Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.SK_FPGun_PhysicsAsset as actor: SkeletalMeshActor /Game/NewMap.NewMap:PersistentLevel.SkeletalMeshActor_0
+[2025.02.13-14.51.43:127][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.02.13-14.51.43:129][752]LogEditorActor: Deleted 0 Actors (0.011 secs)
+[2025.02.13-14.51.43:137][752]LogActorFactory: Actor Factory spawned PhysicsAsset /Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.SK_FPGun_PhysicsAsset as actor: SkeletalMeshActor /Game/NewMap.NewMap:PersistentLevel.SkeletalMeshActor_UAID_74D4DD3E17BA034C02_1946368280
+[2025.02.13-14.51.43:137][752]LogActor: Warning: SetReplicates called on non-initialized actor SkeletalMeshActor_UAID_74D4DD3E17BA034C02_1946368280. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2025.02.13-14.51.43:137][752]LogActorFactory: Actor Factory spawned PhysicsAsset /Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.SK_FPGun_PhysicsAsset as actor: SkeletalMeshActor /Game/NewMap.NewMap:PersistentLevel.SkeletalMeshActor_UAID_74D4DD3E17BA034C02_1946368280
+[2025.02.13-14.51.47:278][963]Cmd: DELETE
+[2025.02.13-14.51.47:278][963]Cmd: ACTOR DELETE
+[2025.02.13-14.51.47:281][963]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2025.02.13-14.51.47:292][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.02.13-14.51.47:297][963]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2025.02.13-14.52.04:331][982]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.13-14.52.04:394][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.02.13-14.52.04:408][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.02.13-14.52.04:420][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.02.13-14.52.04:422][982]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/R4/M3O29L9JHEGCCTRG4OMS75
+[2025.02.13-14.52.04:423][982]LogSavePackage: Moving '../../../../../../Users/Acer/Documents/GitHub/Menzil/Saved/M3O29L9JHEGCCTRG4OMS7518902EFE4CA979C3FFF658834D465791.tmp' to '../../../../../../Users/Acer/Documents/GitHub/Menzil/Content/__ExternalActors__/NewMap/6/R4/M3O29L9JHEGCCTRG4OMS75.uasset'
+[2025.02.13-14.52.04:434][982]LogFileHelpers: InternalPromptForCheckoutAndSave took 103.351 ms (total: 253.707 ms)
+[2025.02.13-14.52.04:481][982]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.13-14.52.04:481][982]LogContentValidation: Enabled validators:
+[2025.02.13-14.52.04:481][982]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.13-14.52.04:481][982]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.13-14.52.04:481][982]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.13-14.52.04:481][982]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.13-14.52.04:481][982]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.13-14.52.04:481][982]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.13-14.52.04:481][982]AssetCheck: /Game/NewMap Validating asset
